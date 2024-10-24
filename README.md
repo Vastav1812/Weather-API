@@ -77,13 +77,18 @@ bash
 pip install -r requirements.txt
 ```
 --- 
-
-## **Example Usage**
--Display Weather for a City: Select a city from the left panel to display the current weather details, including conditions, temperature, humidity, etc.
--Alerts: Alerts can be configured for temperature exceeding user-specified values.
-
 ## **Testing**
 -Unit Tests: Unit tests are available for the model and controller.
 ```
 python -m unittest discover
 ```
+---
+## **Example Usage**
+-Display Weather for a City: Select a city from the left panel to display the current weather details, including conditions, temperature, humidity, etc.
+-Alerts: Alerts can be configured for temperature exceeding user-specified values.
+--
+---
+## **Future Enhancements**
+-Forecast Retrieval: Extend the system to retrieve weather forecasts and provide predictive insights.
+-Additional Weather Metrics: Support additional metrics like UV index, visibility, etc.
+-Alert Notification: Implement email or SMS alerts for thresholds.
