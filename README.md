@@ -99,6 +99,6 @@ python -m unittest discover
 - Alerts: Alerts can be configured for temperature exceeding user-specified values.
 ---
 ## **Future Enhancements**
--Forecast Retrieval: Extend the system to retrieve weather forecasts and provide predictive insights.
--Additional Weather Metrics: Support additional metrics like UV index, visibility, etc.
--Alert Notification: Implement email or SMS alerts for thresholds.
+- Forecast Retrieval: Extend the system to retrieve weather forecasts and provide predictive insights.
+- Additional Weather Metrics: Support additional metrics like UV index, visibility, etc.
+- Alert Notification: Implement email or SMS alerts for thresholds.
