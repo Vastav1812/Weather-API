@@ -1,0 +1,4 @@
+requests==2.28.1
+matplotlib==3.6.0
+tk==0.1.0
+pillow==9.2.0  # Sometimes needed for tkinter on Mac or Linux
