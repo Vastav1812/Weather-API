@@ -50,6 +50,33 @@ The UI is built using Tkinter, featuring:
 ### Clone the Repository
 
 ```bash
-git clone <repository_url>
+git clone <[repository_url](https://github.com/Vastav1812/Weather-API---CONVIN/tree/main)>
 cd Weather-API
+```
+### **Install Dependencies**
+The project uses Python libraries including requests, Tkinter, and matplotlib. Install them using the requirements file:
+```
+bash
+pip install -r requirements.txt
+```
+--- 
+
+## **Example Usage**
+-Display Weather for a City: Select a city from the left panel to display the current weather details, including conditions, temperature, humidity, etc.
+-Alerts: Alerts can be configured for temperature exceeding user-specified values.
+
+## **Directory Structure**
+```
+plaintext
+Weather-API/
+  ├── app.py                # Main application
+  ├── model.py              # Model containing database interaction and data logic
+  ├── view.py               # View for UI using Tkinter
+  ├── controller.py         # Controller logic to manage interaction
+  ├── config.json           # Configuration file (API key and thresholds)
+  ├── requirements.txt      # Python dependencies
+  ├── test_cases/           # Unit test files
+  │   ├── test_model.py     # Tests for model
+  │   ├── test_controller.py # Tests for controller
+  └── daily_weather_log.txt  # Weather log with daily summaries
 ```
