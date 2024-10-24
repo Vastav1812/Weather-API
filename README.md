@@ -76,7 +76,7 @@ The project uses Python libraries including requests, Tkinter, and matplotlib. I
 bash
 pip install -r requirements.txt
 ```
---- 
+
 ## **Testing**
 -Unit Tests: Unit tests are available for the model and controller.
 ```
@@ -84,9 +84,8 @@ python -m unittest discover
 ```
 ---
 ## **Example Usage**
--Display Weather for a City: Select a city from the left panel to display the current weather details, including conditions, temperature, humidity, etc.
--Alerts: Alerts can be configured for temperature exceeding user-specified values.
---
+- Display Weather for a City: Select a city from the left panel to display the current weather details, including conditions, temperature, humidity, etc.
+- Alerts: Alerts can be configured for temperature exceeding user-specified values.
 ---
 ## **Future Enhancements**
 -Forecast Retrieval: Extend the system to retrieve weather forecasts and provide predictive insights.
