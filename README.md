@@ -16,12 +16,12 @@ This project implements a weather monitoring system using the OpenWeatherMap API
 
 ### Main Application UI
 ![Main Application UI](screenshots/main.png)
-![Main Application UI](screenshots/dropdown.png)
+![Main Application UI](screenshots/Dragdown.png)
 
 
 ### Weather Data Visualization
 ![Weather Data Visualization](screenshots/Delhi.png)
-![Weather Data Visualization](screenshots/kolkata.png)
+![Weather Data Visualization](screenshots/Kolkata.png)
 
 ## **Directory Structure**
 ```
